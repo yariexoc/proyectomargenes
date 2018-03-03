@@ -1,0 +1,854 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  display: inline-block;
+  margin-left: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.Imag1{
+  width: 970px;
+  height: 1270px;
+  margin: 60px 60px;
+  background-color: blue;
+}
+div article:first-child, div article:nth-child(2), div article:nth-child(3){
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin: 40px 0px 0px 50px;
+  background-color: green;
+}
+div article:first-child aside, div article:nth-child(2) aside, div article:nth-child(3) aside{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius:50%;
+  margin: auto;
+  margin-top:20px;
+  margin-left: 50;
+}
+div article:nth-child(4), div article:nth-child(5){
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  background-color: green;
+  display: inline-block;
+  margin-right: 90px;
+  margin-left: 90px;
+  display: inline-block;
+
+}
+
+div article:nth-child(4) aside, div article:nth-child(5) aside{
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  border-radius:50%;
+  margin: auto;
+  margin-top:20px;
+  margin-left: 50;
+}
+
+div article:nth-child(6){
+  width: 850px;
+  height: 550px;
+  background-color: green;
+  margin-left: 55px;
+  float: left;
+}
+
+div article:nth-child(6) nav{
+  width: 250px;
+  height: 500px;
+  background-color: yellow;
+  margin: 25px 5px 0px 20px;
+  float: left; 
+
+}
+div article:nth-child(6) nav figure{
+  width: 140px;
+  height: 140px;
+  background-color: blue;
+  margin: 15px;
+  margin-left: 50px;
+  margin-top: 9%;
+}
+div article:nth-child(6) nav object{
+  width: 200px;
+  height: 470px;
+  background-color: blue;
+  border-radius:40%;
+  margin: 15px;
+  margin-left: 25px;
+}
+div article:nth-child(6) nav b{
+  width: 140px;
+  height: 140px;
+  background-color: blue;
+  border-radius:50%;
+  margin: 10px;
+  margin-left: 50px;
+  display: inline-block;
+
+}
+
+
+/* segundo */
+ .Imag2{
+     width: 895px;
+     height: 1100px;
+     margin: 60px 80px;
+     background-color: purple;
+}
+ .Imag2 article:first-child, .Imag2 article:nth-child(2){
+     display: inline-block;
+     width: 352px;
+     height: 352px;
+     background-color: white;
+     margin: 46px;
+}
+ .Imag2 article:first-child div, .Imag2 article:nth-child(2) div{
+     display: inline-block;
+     width: 170px;
+     height: 170px;
+     background-color: orange;
+     border-radius: 50%;
+     margin-left: 2px;
+
+  }
+
+ .Imag2 article:nth-child(3){
+
+      display: inline-block;
+      width: 380px;
+      height: 280px;
+      background-color: white;
+      margin: 20px;
+      margin-right: 270px;
+      margin-left: 250px;
+  }
+  .Imag2 article:nth-child(3) div{
+      width: 170px;
+      height: 170px;
+      background-color: orange;
+      border-radius:50%;
+      display: inline-block;
+      margin-top: 13%;
+      margin-left: 12px;
+
+   }
+   .Imag2 article:nth-child(4){
+      display: inline-block;
+      width: 150px;
+      height: 255px;
+      background-color: white;
+      margin: 40px;
+      margin-right: 0px;
+   }
+    .Imag2 article:nth-child(4) div{
+      width: 120px;
+      height: 220px;
+      background-color: orange;
+      border-radius:45%;
+      margin: 15px;
+    }
+
+    .Imag2 article:nth-child(5){
+      display: inline-block;
+      width: 150px;
+      height: 255px;
+      background-color: white;
+      margin: 40px;
+      margin-right: 0px;
+    }
+    .Imag2 article:nth-child(5) div{
+      width: 120px;
+      height: 220px;
+      background-color: orange;
+      border-radius:40%;
+      margin: 15px;
+    }
+
+    .Imag2 article:nth-child(6){
+      display: inline-block;
+      width: 150px;
+      height: 255px;
+      background-color: white;
+      margin: 40px;
+      margin-right: 0px;
+    }
+    .Imag2 article:nth-child(6) div{
+      width: 120px;
+      height: 220px;
+      background-color: orange;
+      border-radius:40%;
+      margin: 15px;
+    }
+    .Imag2 article:nth-child(7){
+      display: inline-block;
+      width: 250px;
+      height: 255px;
+      background-color: white;
+      margin: 40px;
+      margin-right: 0px;
+    }
+    .Imag2 article:nth-child(7) div{
+      width: 110px;
+      height: 110px;
+      background-color: orange;
+      border-radius: 50%;
+      float: left;
+      margin: 5px;
+      margin-left: 9px;
+  }
+
+
+
+
+/* tercero */
+ .Imag3{
+     width: 900px;
+     height: 1200px;
+     margin: 60px 80px;
+     background-color: pink;
+}
+ .Imag3 article:first-child, .Imag3 article:nth-child(2){
+     float: left;
+     width: 370px;
+     height: 340px;
+     background-color: brown;
+     margin: 50px;
+     margin-right: 10px;
+}
+
+
+ .Imag3 article:first-child sub, .Imag3 article:nth-child(2) sub{
+     display: inline-block;
+     width: 330px;
+     height: 300px;
+     background-color: orange;
+     margin: 20px;
+     margin-right: 10px;
+     float: left
+}
+  .Imag3 article:first-child sub header, .Imag3 article:nth-child(2) sub header{
+     display: inline-block;
+     width: 290px;
+     height: 230px;
+     background-color: purple;
+     margin: 20px 25px 25px 20px;
+     margin-right: 10px;
+     float: left;
+     margin-top: 10%;
+
+}
+  .Imag3 article:first-child sub header  var, .Imag3 article:nth-child(2) sub header var{
+     display: inline-block;
+     width: 80px;
+     height: 80px;
+     background-color: white;
+     margin: 3px;
+     margin-right: 11px;
+     border-radius:50%;
+     margin: 18px 3px 3px 10px;
+      
+
+   }
+   .Imag3 article:first-child sub header  strong, .Imag3 article:nth-child(2) sub header strong{
+     display: inline-block;
+     width: 80px;
+     height: 80px;
+     background-color: white;
+     margin: 3px;
+     margin-right: 11px;
+     margin: 18px 3px 3px 10px;
+   }
+   .Imag3 article:nth-child(3) {
+     float: left;
+     width: 800px;
+     height: 340px;
+     background-color: brown;
+     margin: 50px;
+     margin-top: 0%;
+     margin-right: 10px;
+   }
+   .Imag3 article:nth-child(3) dir, .Imag3 article:nth-child(3) dir {
+     float: left;
+     width: 740px;
+     height: 290px;
+     background-color: orange;
+     margin: 50px 40px 40px 32px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+  }
+
+   .Imag3 article:nth-child(3) span, .Imag3 article:nth-child(3) span{
+     float: left;
+     width: 230px;
+     height: 250px;
+     background-color: purple;
+     margin: 38px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+  }
+
+  .Imag3 article:nth-child(3)  legend, .Imag3 article:nth-child(3) legend{
+     display:inline-block;
+     width: 100px;
+     height: 200px;
+     background-color: white;
+     margin: 7px;
+     margin-right: 6px;
+     border-radius:50%;
+     margin-top: 12%;
+     float: left;
+    
+
+  }
+
+  .Imag3 article:nth-child(3) li, .Imag3 article:nth-child(3) li{
+     float: left;
+     width: 200px;
+     height: 250px;
+     background-color: purple;
+     margin: 20px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+ }
+  
+  .Imag3 article:nth-child(3)  ins, .Imag3 article:nth-child(3) ins{
+  
+     display: inline-block;
+     width: 180px;
+     height: 100px;
+     background-color: white;
+     margin: 3px;
+     margin-right: 11px;
+     border-radius:50%;
+     margin: 0px 10px 10px 10px;
+    
+
+ }
+
+  .Imag3 article:nth-child(3) output, .Imag3 article:nth-child(3) output{
+     float: left;
+     width: 170px;
+     height: 250px;
+     background-color: purple;
+     margin: 20px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+  }
+  .Imag3 article:nth-child(3)  samp, .Imag3 article:nth-child(3) samp{
+  
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     background-color: white;
+     margin: 3px;
+     margin-right: 11px;
+     border-radius:50%;
+     margin: 18px 6px 0px 35px;
+   }
+
+  .Imag3 article:nth-child(4) {
+     float: left;
+     width: 800px;
+     height: 340px;
+     background-color: brown;
+     margin: 50px;
+     margin-top: 0%;
+     margin-right: 10px;
+
+   }
+
+   .Imag3 article:nth-child(4) abbr, .Imag3 article:nth-child(3) abbr{
+     float: left;
+     width: 740px;
+     height: 290px;
+     background-color: orange;
+     margin: 50px 40px 40px 32px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+   }
+
+   .Imag3 article:nth-child(4) ol, .Imag3 article:nth-child(3) ol{
+     float: left;
+     width: 680px;
+     height: 243px;
+     background-color: purple;
+     margin: 50px 40px 40px 32px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+   }
+
+   .Imag3 article:nth-child(4) dd, .Imag3 article:nth-child(3) dd{
+     float: left;
+     width: 617px;
+     height: 202px;
+     background-color: white;
+     margin: 50px 40px 40px 32px;
+     margin-top: 3%;
+     margin-right: 10px;
+
+   }
+
+   .Imag3 article:nth-child(4) i, .Imag3 article:nth-child(3) i{
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     background-color: black;
+     margin: 0px;
+     margin-right: 0px;
+     border-radius:50%;
+     margin: 47px 0px 0px 17px;
+
+   }
+   /* Cuarta*/
+
+ .Imag4{
+     width: 892px;
+     height: 1200px;
+     margin: 60px 80px;
+     background-color: lightblue;
+
+}
+
+ .Imag4 article:first-child, .Imag4 article:nth-child(2), .Imag4 article:nth-child(3), .Imag4 article:nth-child(4), .Imag4 article:nth-child(5){
+     float: left;
+     width: 120px;
+     height: 240px;
+     background-color: brown;
+     margin: 25px 10px 30px 25px;
+
+}
+
+ .Imag4 article:first-child div, .Imag4 article:nth-child(3) div, .Imag4 article:nth-child(5) div{
+     
+     width: 80px;
+     height: 80px;
+     background-color: gold;
+     margin-right: 0px;
+     border-radius:50%;
+     margin: 26px 5px 0px 21px;
+
+ }
+
+  .Imag4 article:nth-child(2) div, .Imag4 article:nth-child(4) div{
+     
+     width: 80px;
+     height: 200px;
+     background-color: gold;
+     margin-right: 0px;
+     border-radius:45%;
+     margin: 20px 10px 5px 21px;
+
+}
+
+.Imag4 article:nth-child(6){
+     
+     width: 80px;
+     height: 239px;
+     background-color: brown;
+     margin: 25px 10px 30px 8px;
+}
+
+.Imag4 article:nth-child(7){
+     float: left;
+     width: 275px;
+     height: 249px;
+     background-color: brown;
+     margin: 0 24px 0 24px;
+
+}
+
+.Imag4 article:nth-child(7)>div{
+     width: 222px;
+     height: 70px;
+     background-color: gold;
+     margin: 24px 4px 8px 24px;    
+
+}
+
+.Imag4 article:nth-child(7)>div>section{
+    
+     width: 206px;
+     height: 60px;
+     background-color: purple;
+     border-radius:45%;
+     margin: 5px 10px 10px 5px;
+     
+
+
+}
+
+.Imag4 article:nth-child(7)>footer, .Imag4 article:nth-child(7)>header{
+     display: inline-block;
+     width: 80px;
+     height: 125px;
+     background-color: gold;
+     margin: 4px 0px 25px 25px;
+     margin-right: 11%;
+
+     
+     
+     
+}
+
+.Imag4 article:nth-child(7)>footer>div{
+  
+     width: 60px;
+     height: 110px;
+     background-color: purple;
+     margin-right: 0px;
+     border-radius:45%;
+     margin-top: 11%;
+     margin-left: 14px;
+
+}
+
+
+.Imag4 article:nth-child(7)>header>div{
+    
+     width: 55px;
+     height: 55px;
+     background-color: purple;
+     margin-right: 0px;
+     border-radius:50%;
+     margin: 5px 0px 0px 18px;
+
+}
+
+.Imag4 article:nth-child(8){
+     float: left;
+     width: 539px;
+     height: 249px;
+     background-color: brown;
+     margin: 0;
+
+}
+.Imag4 article:nth-child(8)>div{
+     width: 495px;
+     height: 220px;
+     background-color: gold;
+     margin: 22px;
+     margin-right: 12px;
+     margin-top: 3%;
+
+}
+
+.Imag4 article:nth-child(8)>div>section{
+     float: left;
+     width: 455px;
+     height: 190px;
+     background-color: purple;
+     margin: 15px 15px 6px 19px;
+     
+   }
+
+   .Imag4 article:nth-child(8)>div>section>footer{
+     float: left;
+     width: 110px;
+     height: 140px;
+     background-color: blue;
+     margin: 25px 0px 30px 31px;
+      
+
+   }
+   .Imag4 article:nth-child(8)>div>section>footer>div{
+     
+     width: 90px;
+     height: 90px;
+     background-color: gold;
+     border-radius:50%;
+     margin: 26px 5px 0px 10px;
+
+   }
+
+    .Imag4 article:nth-child(9), .Imag4 article:nth-child(10), .Imag4 article:nth-child(11){
+     display: inline-block;
+     width: 260px;
+     height: 300px;
+     background-color: brown;
+     margin: 25px 0px 30px 25px;
+     
+
+   }
+   .Imag4 article:nth-child(9) div, .Imag4 article:nth-child(10) div, .Imag4 article:nth-child(11) div{
+     display: inline-block;
+     width: 210px;
+     height: 250px;
+     background-color: yellow;
+     margin: 25px 0px 30px 25px;
+
+   }
+
+   .Imag4 article:nth-child(9) div>dir{
+    
+     width: 180px;
+     height: 110px;
+     background-color: purple;
+     margin: 0px 0px 40px 16px;
+
+
+  
+  }
+
+   .Imag4 article:nth-child(9) div>dir>footer{
+     
+     width: 90px;
+     height: 90px;
+     background-color: blue;
+     margin: 8px 0px 2px 46px;
+     border-radius: 50%;
+     margin-top: 5%;
+    
+
+   }
+
+   .Imag4 article:nth-child(9) div>pre{
+     width: 150px;
+     height: 80px;
+     background-color: purple;
+     margin: 0px 0px 0px 32px;
+     border-radius: 45%;
+
+    
+
+   }
+
+   .Imag4 article:nth-child(10) div pre{
+     width: 150px;
+     height: 80px;
+     background-color: purple;
+     margin: 0px 0px 40px 28px;
+     border-radius: 45%;
+     margin-top: 5%;
+     
+
+ }
+
+   .Imag4 article:nth-child(10) div dir{
+     width: 180px;
+     height: 110px;
+     background-color: purple;
+     margin: 0px 0px 40px 16px;
+
+ }
+
+   .Imag4 article:nth-child(11) div>footer{
+     
+     width: 200px;
+     height: 200px;
+     background-color: blue;
+     margin: 24px 22px 22px 6px;
+     border-radius: 50%;
+     
+
+ }
+
+   .Imag4 article:nth-child(12) {
+
+     width: 838px;
+     height: 270px;
+     background-color: brown;
+     margin: 2px 20px 20px 25px;
+
+ }
+
+   .Imag4 article:nth-child(12) div{
+     display: inline-block;
+     width: 128px;
+     height: 128px;
+     background-color: gold;
+     margin: 60px 20px 10px 15px;
+     float: left;
+
+ }
+
+   .Imag4 article:nth-child(12) dir{
+     display: inline-block;
+     width: 148px;
+     height: 128px;
+     background-color: gold;
+     margin: 60px 20px 10px 15px;
+
+
+  }
+
+   .Imag4 article:nth-child(12) div>footer{
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     background-color: blue;
+     margin: 18px 20px 10px 15px;
+     border-radius: 50%;  
+
+  }
+
+   .Imag4 article:nth-child(12) dir>footer{
+     
+     width: 130px;
+     height: 40px;
+     background-color: blue;
+     margin: 16px 20px 10px 10px;
+     border-radius: 45%;  
+     
+     
+
+/*Quinta */
+
+
+
+ }.Imag5{
+     width: 900px;
+     height: 1140px;
+     margin: 60px 80px;
+     background-color: green;
+}
+ .Imag5 article:first-child, .Imag5 article:nth-child(2), .Imag5 article:nth-child(3){
+     float: left;
+     width: 248px;
+     height: 790px;
+     background-color: black;
+     margin: 25PX;          
+}
+
+.Imag5 article:nth-child(4){
+     width: 845px;
+     height: 268px;
+     background-color: black;
+     margin: 10px 0px 0px 25px;
+     float: left;
+}
+
+.Imag5 article:first-child div{
+     width: 108px;
+     height: 130px;
+     background-color: yellow;
+     margin: 20px 0px 0px 20px;
+     float: left;
+
+}
+
+.Imag5 article:first-child div>footer{
+     width: 55px;
+     height: 55px;
+     background-color: red;
+     margin: 6px 0px 0px 30px;
+     border-radius: 50%;
+     float: left;  
+}
+
+.Imag5 article:first-child dir{
+     width: 75px;
+     height: 130px;
+     background-color: yellow;
+     margin: 20px 0px 20px 20px;
+     display: inline-block;    
+
+}
+
+.Imag5 article:first-child dir>footer{
+     width: 50px;
+     height: 120px;
+     background-color: red;
+     margin: 6px 5px 20px 12px;
+     border-radius: 45%;
+     float: left;
+}
+
+.Imag5 article:first-child pre{
+     width: 205px;
+     height: 100px;
+     background-color: yellow;
+     margin: 20px;
+     float: left;
+}
+
+.Imag5 article:first-child pre>footer{
+     width: 70px;
+     height: 70px;
+     background-color: red;
+     margin: 10px ;
+     border-radius: 50%;
+     float: left;
+}
+
+.Imag5 article:first-child dir{
+     width: 75px;
+     height: 130px;
+     background-color: yellow;
+     margin: 20px 0px 20px 20px;
+     float: left;  
+}
+
+.Imag5 article:first-child div{
+     width: 108px;
+     height: 130px;
+     background-color: yellow;
+     margin: 20px 0px 0px 20px;
+     float: left; 
+}
+.Imag5 article:first-child dir>header{
+     width: 50px;
+     height: 50px;
+     background-color: red;
+     margin: 10px 0px 0px 13px ;
+     border-radius: 50%;
+     float: left;
+
+}
+.Imag5 article:first-child div>main{
+     width: 60px;
+     height: 60px;
+     background-color: red;
+     margin: 3px 0px 0px 23px ;
+     border-radius: 50%;
+     float: left;
+}
+
+.Imag5 article:first-child figure{
+     width: 205px;
+     height: 250px;
+     background-color: yellow;
+     margin: 20px;
+     float: left;
+
+     
+    
+    
+
+     
+
+
+
+     
+
+
+
+
+/*Sesta */
+
+
+
+ .Imag6{
+     width: 900px;
+     height: 1180px;
+     margin: 60px 80px;
+     background-color: yellow;
+}
+ 
+
